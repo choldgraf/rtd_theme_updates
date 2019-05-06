@@ -1,0 +1,18 @@
+/* Sidebar */
+@media screen and (min-width: 1270px) {
+    li.toctree-l1.current > ul {
+        position: fixed;
+        margin-left: 0px;
+        overflow-y: auto;
+        height: 95%;
+        border-right: 1px solid #767677;
+        background-color: white;
+        top: 70px;
+        left: 1100px;
+    }
+}
+
+/* Ensure the background is uniform color */
+.wy-nav-content-wrap {
+    background: #fcfcfc !important;
+}

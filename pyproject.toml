@@ -1,0 +1,13 @@
+[build-system]
+requires = ["flit", "sphinx_rtd_theme"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "sphinx_rtd_jupyter"
+author = "Project Jupyter"
+author-email = "jupyter@googlegroups.com"
+home-page = "https://github.com/jupyterhub/sphinx-rtd-jupyter"
+requires = [
+    "sphinx >=1.6",
+    "sphinx_rtd_theme",
+]
